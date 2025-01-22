@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .email-builder-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .upload-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .email-builder-container {
+    padding: 5px;
+  }
+}
