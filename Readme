@@ -1,0 +1,14 @@
+email-builder/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── redux/
+│   │   ├── services/
+│   │   └── App.js
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── server.js
+└── README.md
