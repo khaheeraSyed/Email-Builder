@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "react",
+    "redux",
+    "axios",
+    "react-redux",
+    "cloudinary-react",
+    "tailwindcss"
+  ]
+}
