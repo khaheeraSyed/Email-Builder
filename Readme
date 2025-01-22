@@ -1,14 +1,28 @@
 email-builder/
 ├── frontend/
 │   ├── public/
+│   │   └── index.html
 │   ├── src/
 │   │   ├── components/
-│   │   ├── redux/
-│   │   ├── services/
-│   │   └── App.js
+│   │   │   ├── EmailEditor.js
+│   │   │   ├── ImageUploader.js
+│   │   │   └── TemplatePreview.js
+│   │   ├── styles/
+│   │   │   ├── index.css
+│   │   │   └── tailwind.css
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── tailwind.config.js
 ├── backend/
 │   ├── models/
+│   │   └── EmailTemplate.js
 │   ├── routes/
+│   │   └── emailRoutes.js
 │   ├── controllers/
-│   └── server.js
+│   │   └── emailController.js
+│   ├── templates/
+│   │   └── layout.html
+│   ├── server.js
+│   └── package.json
 └── README.md
